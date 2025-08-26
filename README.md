@@ -1,13 +1,6 @@
-This is a template for a CS1030 web page project.
+SPA Project 0.
 
-0. If you did not start with a copy of this repository via GitHub Classroom:
-   * Copy this repository via "Use this template" or Fork this repository
-1. Enable GitHub Pages via the _Settings > Pages_ menu
-   * Choose Source: **Deploy from a branch**
-   * Choose Branch: **main**
-   * **Save** _without_ choosing a Theme
-   * It may take a little while for GitHub to notice, build, and publish your website 
-   * Note the URL of the published website (e.g., https:&ThinSpace;//metrocs.github.io/_repositoryname_)
-2. Open the published website in your browser to verify access
-3. Update your website by _editing_ **index.html** and _committing_ the changes
-   * Make some significant changes that personalize your website and would be obvious to a visitor (e.g., your instructor)
+The goal for this project was to implement an application that generated random numbers for the user. Before I wrote any code, I wrote down a clear roadmap of what I wanted to accomplish with the application. I started with making a clear header for the page, so anyone who visits (including myself) would know exactly what to expect from the application. I also implemented a small paragraph to give a disclaimer. 
+Although I had originally planned to have a red-colored button display "generate my numbers" to redirect to the second page, I left the redirect as a plain hyperlink.  
+Due to the scope of the project, I abandoned a few of the ideas I had originally mapped out. These included the idea of writing a function to actually generate random numbers. I instead provided a set of numbers that does not change. This tied in well with using a button to 'troll' the user upon clicking. Once the user interacts with the button to generate new numbers (or so they think), the screen will display: "You sucker. You get what you get!" I also opted for displaying the white dot emojis and red circle emoji under the index page header, where I had originally planned to display the generated numbers in the appropriate colored circles. This was a stylistic choice that was more complicated and involved than required for the project, therefore I opted for a more simplistic approach to acheive the goal. 
+This project called for the implementation of html, css, and javascript in order to meet the requirements. I did this by writing the bones in html (most of it really), changing the font with css, and implementing a change in the text displayed upon user interaction with javascript. 
